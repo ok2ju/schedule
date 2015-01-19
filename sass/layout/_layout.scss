@@ -1,0 +1,33 @@
+$header-bg-color: #9bd8f1;
+$header-font-color: #fff;
+
+#header {
+    height: 50px;
+    z-index: 999;
+    color: $header-font-color;
+    background-color: $header-bg-color;
+    box-shadow: 0 1px 1px rgba(34, 34, 34, 0.35);
+}
+
+.l-constrained {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+	padding-top: 50px;
+}
+
+.l-content {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 74.41059%;
+}
+
+.l-sidebar {
+	float: left;
+	display: block;
+	width: 23.23176%;
+}

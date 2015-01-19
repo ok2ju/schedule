@@ -1,0 +1,20 @@
+{
+  "name": "calendar",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey Vakulich <soulSpringg@gmail.com> (https://github.com/ok2ju)",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-core": "^4.0.2",
+    "csswring": "^2.0.0",
+    "grunt": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-postcss": "^0.2.0",
+    "normalize.css": "^3.0.2"
+  }
+}

@@ -1,0 +1,40 @@
+$top-link-color: #fff;
+
+.header-nav__logo {
+	float: left;
+	line-height: 3;
+	color: $top-link-color;
+	font-weight: bold;
+}
+
+.header-nav__user-panel {
+	float: right;
+}
+
+.header-nav__link {
+	display: inline-block;
+	padding: 1em;
+	color: $top-link-color;
+}
+
+.top-list {
+	margin-right: 8em;
+}
+
+.user-menu__photo {
+	width: 30px;
+
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+.user-menu__name {
+	vertical-align: middle;
+	color: $top-link-color;
+}
+
+.top-list,
+.user-menu,
+.top-list__item{
+	display: inline-block;
+}

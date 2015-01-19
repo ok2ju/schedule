@@ -1,0 +1,28 @@
+.btn {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0.25em;
+    padding: 0 3em;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btn-red {
+    background-color: #c6463d;
+    color: #fff;
+
+    &:hover {
+        background-color: #BE645E;
+    }
+}
+
+.btn-black {
+    background-color: #383838;
+    color: #fff;
+    
+    &:hover {
+        background-color: #454545;
+    }
+}

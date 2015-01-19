@@ -1,0 +1,46 @@
+//Schedule Header
+
+.schedule-header__day-number {
+	display: inline-block;
+	margin-right: 10px;
+    font-size: 85px;
+    font-weight: bold;
+    color: #E64A19;
+}
+
+.schedule-header__day-name {
+	display: inline-block;
+    font-size: 35px;
+    color: #212121;
+}
+
+//Schedule Table
+
+.schedule-table {
+	margin-bottom: 20px;
+}
+
+.schedule-table__row__col {
+    border-bottom: 1px dashed black;
+    padding: 1em;
+}
+
+.schedule-table__row:first-child td {
+    border-top: 1px dashed black;
+}
+
+//Schedule Admin Actions
+
+.schedule-actions {
+    margin-top: 20px;
+}
+
+.schedule-actions__select {
+    float: left;
+    margin-right: 20px;
+}
+
+.schedule-actions__btns__item {
+    display: inline-block;
+    margin-right: 5px;
+}
