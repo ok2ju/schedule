@@ -1,3 +1,7 @@
+// imports
+@import '../utils/clearfix';
+
+// variables
 $header-bg-color: #9bd8f1;
 $header-font-color: #fff;
 
@@ -17,6 +21,8 @@ $header-font-color: #fff;
 
 .main {
 	padding-top: 50px;
+
+	@include clearfix;
 }
 
 .l-content {

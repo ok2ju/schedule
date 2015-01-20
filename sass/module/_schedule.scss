@@ -1,3 +1,9 @@
+// imports
+@import '../utils/clearfix';
+
+// variables
+$schedule-link-color: #212121;
+
 //Schedule Header
 
 .schedule-header__day-number {
@@ -29,10 +35,20 @@
     border-top: 1px dashed black;
 }
 
+.schedule-table__link {
+    color: $schedule-link-color;
+
+    &:active {
+        color: red;
+    }
+}
+
 //Schedule Admin Actions
 
 .schedule-actions {
     margin-top: 20px;
+
+    @include clearfix;
 }
 
 .schedule-actions__select {

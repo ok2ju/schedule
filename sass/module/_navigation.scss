@@ -1,4 +1,12 @@
+// imports
+@import '../utils/clearfix';
+
+// variables
 $top-link-color: #fff;
+
+.header-nav {
+	@include clearfix;
+}
 
 .header-nav__logo {
 	float: left;

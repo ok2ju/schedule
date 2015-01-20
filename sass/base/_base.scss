@@ -14,16 +14,6 @@ html {
     box-sizing: inherit;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: '';
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
 body {
 	font-family: $primary-font;
 	color: $primary-font-color;
