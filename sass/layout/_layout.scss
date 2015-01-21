@@ -25,15 +25,17 @@ $header-font-color: #fff;
 	@include clearfix;
 }
 
-.l-content {
+.l-content,
+.l-sidebar {
 	float: left;
 	display: block;
+}
+
+.l-content {
 	margin-right: 2.35765%;
 	width: 74.41059%;
 }
 
 .l-sidebar {
-	float: left;
-	display: block;
 	width: 23.23176%;
 }

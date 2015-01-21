@@ -1,4 +1,7 @@
-//variables
+// imports
+@import '../utils/shadows';
+
+// variables
 $sideblock-font-color: #212121;
 $sideblock-border-top-color: #c6463d;
 $sideblock-bg-color: #f5f5f5;
@@ -8,6 +11,8 @@ $sideblock-bg-color: #f5f5f5;
 	margin-bottom: 20px;
 	border-top: 5px solid $sideblock-border-top-color;
 	background-color: $sideblock-bg-color;
+
+	@include card(1);
 }
 
 .sideblock__header {
