@@ -9,7 +9,10 @@
     font-weight: bold;
 }
 
-.btn--red {
+// Модификаторы блока .btn
+// название блока_тип модификатора_значение модификатора
+// Например, .btn_size_large
+.btn_color_red {
     background-color: #c6463d;
     color: #fff;
 
@@ -18,7 +21,7 @@
     }
 }
 
-.btn--black {
+.btn_color_black {
     background-color: #383838;
     color: #fff;
     
