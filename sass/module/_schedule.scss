@@ -26,7 +26,7 @@ $schedule-link-color: #212121;
 	margin-bottom: 20px;
 }
 
-.schedule-table__row__col {
+.schedule-table__cell {
     border-bottom: 1px dashed black;
     padding: 1em;
 }
@@ -56,7 +56,7 @@ $schedule-link-color: #212121;
     margin-right: 20px;
 }
 
-.schedule-actions__btns__item {
+.schedule-actions__btns-item {
     display: inline-block;
     margin-right: 5px;
 }

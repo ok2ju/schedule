@@ -8,13 +8,6 @@ $top-link-color: #fff;
 	@include clearfix;
 }
 
-.header-nav__logo {
-	float: left;
-	line-height: 3;
-	color: $top-link-color;
-	font-weight: bold;
-}
-
 .header-nav__user-panel {
 	float: right;
 }

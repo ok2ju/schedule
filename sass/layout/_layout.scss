@@ -6,7 +6,7 @@ $header-bg-color: #9bd8f1;
 $header-font-color: #fff;
 
 #header {
-    height: 50px;
+    min-height: 50px;
     z-index: 999;
     color: $header-font-color;
     background-color: $header-bg-color;

@@ -6,13 +6,18 @@
     <title>Add Schedule [admin]</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">    
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 
 <body>
     <header id="header">
         <nav class="header-nav l-constrained">
-            <a class="header-nav__logo" href="#"><i>Logo</i></a>
+            <div class="logo">
+                <a class="logo__link" class="" href="#">
+                    Logo
+                    <img class="logo__icon" src="" alt="">
+                </a>
+            </div>
             <nav class="header-nav__user-panel">
                 <ul class="top-list">
                     <li class="top-list__item"><a class="header-nav__link" href="#">Dashboard</a>
@@ -38,31 +43,31 @@
             </div>
             <table class="schedule-table" cellspacing="0">
                 <tr class="schedule-table__row">
-                    <td class="schedule-table__row__col">12:30 14:50</td>
-                    <td class="schedule-table__row__col">лек. Методы и алгоритмы принятия решений</td>
-                    <td class="schedule-table__row__col">доц. Цехан Ольга Борисовна</td>
-                    <td class="schedule-table__row__col">ауд. 211, Ожешко, 22</td>
-                    <td class="schedule-table__row__col">
+                    <td class="schedule-table__cell">12:30 14:50</td>
+                    <td class="schedule-table__cell">лек. Методы и алгоритмы принятия решений</td>
+                    <td class="schedule-table__cell">доц. Цехан Ольга Борисовна</td>
+                    <td class="schedule-table__cell">ауд. 211, Ожешко, 22</td>
+                    <td class="schedule-table__cell">
                         <a class="schedule-table__link" href="#"><i class="fa fa-pencil-square-o"></i></a>
                         <a class="schedule-table__link" href="#"><i class="fa fa-times"></i></a>
                     </td>
                 </tr>
                 <tr class="schedule-table__row">
-                    <td class="schedule-table__row__col">12:30 14:50</td>
-                    <td class="schedule-table__row__col">лек. Методы и алгоритмы принятия решений</td>
-                    <td class="schedule-table__row__col">доц. Цехан Ольга Борисовна</td>
-                    <td class="schedule-table__row__col">ауд. 211, Ожешко, 22</td>
-                    <td class="schedule-table__row__col">
+                    <td class="schedule-table__cell">12:30 14:50</td>
+                    <td class="schedule-table__cell">лек. Методы и алгоритмы принятия решений</td>
+                    <td class="schedule-table__cell">доц. Цехан Ольга Борисовна</td>
+                    <td class="schedule-table__cell">ауд. 211, Ожешко, 22</td>
+                    <td class="schedule-table__cell">
                         <a class="schedule-table__link" href="#"><i class="fa fa-pencil-square-o"></i></a>
                         <a class="schedule-table__link" href="#"><i class="fa fa-times"></i></a>
                     </td>
                 </tr>
                 <tr class="schedule-table__row">
-                    <td class="schedule-table__row__col">12:30 14:50</td>
-                    <td class="schedule-table__row__col">лек. Методы и алгоритмы принятия решений</td>
-                    <td class="schedule-table__row__col">доц. Цехан Ольга Борисовна</td>
-                    <td class="schedule-table__row__col">ауд. 211, Ожешко, 22</td>
-                    <td class="schedule-table__row__col">
+                    <td class="schedule-table__cell">12:30 14:50</td>
+                    <td class="schedule-table__cell">лек. Методы и алгоритмы принятия решений</td>
+                    <td class="schedule-table__cell">доц. Цехан Ольга Борисовна</td>
+                    <td class="schedule-table__cell">ауд. 211, Ожешко, 22</td>
+                    <td class="schedule-table__cell">
                         <a class="schedule-table__link" href="#"><i class="fa fa-pencil-square-o"></i></a>
                         <a class="schedule-table__link" href="#"><i class="fa fa-times"></i></a>
                     </td>
@@ -76,9 +81,9 @@
                     <option value="option3">Option 3</option>
                 </select>
                 <ul class="schedule-actions__btns">
-                    <li class="schedule-actions__btns__item"><a class="btn btn-red" href="#">Add Lesson</a>
+                    <li class="schedule-actions__btns-item"><a class="btn btn--red" href="#">Add Lesson</a>
                     </li>
-                    <li class="schedule-actions__btns__item"><a class="btn btn-black" href="#">Submit</a>
+                    <li class="schedule-actions__btns-item"><a class="btn btn--black" href="#">Submit</a>
                     </li>
                 </ul>
             </nav>
@@ -100,30 +105,30 @@
             <div class="sideblock">
                 <h3 class="sideblock__header">Menu</h3>
                 <ul class="sideblock__categories">
-                    <li class="sideblock__categories__item">
-                    	<a class="sideblock__link" href="#">
-                    		<i class="fa fa-fw fa-indent fa-list-ul"></i>Check your message
-                    	</a>
+                    <li class="sideblock__categories-item">
+                        <a class="sideblock__link" href="#">
+                            <i class="fa fa-fw fa-indent fa-list-ul"></i>Check your message
+                        </a>
                     </li>
-                    <li class="sideblock__categories__item">
-                    	<a class="sideblock__link" href="#">
-                    		<i class="fa fa-fw fa-indent fa-chain-broken"></i>Check your message
-                    	</a>
+                    <li class="sideblock__categories-item">
+                        <a class="sideblock__link" href="#">
+                            <i class="fa fa-fw fa-indent fa-chain-broken"></i>Check your message
+                        </a>
                     </li>
-                    <li class="sideblock__categories__item">
-                    	<a class="sideblock__link" href="#">
-                    		<i class="fa fa-fw fa-indent fa-line-chart"></i>Check your message
-                    	</a>
+                    <li class="sideblock__categories-item">
+                        <a class="sideblock__link" href="#">
+                            <i class="fa fa-fw fa-indent fa-line-chart"></i>Check your message
+                        </a>
                     </li>
-                    <li class="sideblock__categories__item">
-                    	<a class="sideblock__link" href="#">
-                    		<i class="fa fa-fw fa-indent fa-star-half-o"></i>Check your message
-                    	</a>
+                    <li class="sideblock__categories-item">
+                        <a class="sideblock__link" href="#">
+                            <i class="fa fa-fw fa-indent fa-star-half-o"></i>Check your message
+                        </a>
                     </li>
-                    <li class="sideblock__categories__item">
-                    	<a class="sideblock__link" href="#">
-                    		<i class="fa fa-fw fa-indent fa-folder"></i>Check your message
-                    	</a>
+                    <li class="sideblock__categories-item">
+                        <a class="sideblock__link" href="#">
+                            <i class="fa fa-fw fa-indent fa-folder"></i>Check your message
+                        </a>
                     </li>
                 </ul>
             </div>
