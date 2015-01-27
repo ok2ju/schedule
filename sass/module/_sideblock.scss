@@ -10,9 +10,14 @@ $sideblock-bg-color: #f5f5f5;
 	padding: 2em;
 	margin-bottom: 20px;
 	border-top: 5px solid $sideblock-border-top-color;
+	/*
 	background-color: $sideblock-bg-color;
+	*/
+	background-color: #fff;
 
+	/*
 	@include card(1);
+	*/
 }
 
 .sideblock__header {

@@ -3,13 +3,14 @@
 
 // variables
 $schedule-link-color: #212121;
+$table-border-color: #E2E2E2;
 
 //Schedule Header
 
 .schedule-header__day-number {
 	display: inline-block;
-	margin-right: 10px;
-    font-size: 85px;
+	margin-right: 5px;
+    font-size: 60px;
     font-weight: bold;
     color: #E64A19;
 }
@@ -17,6 +18,7 @@ $schedule-link-color: #212121;
 .schedule-header__day-name {
 	display: inline-block;
     font-size: 35px;
+    font-weight: 300;
     color: #212121;
 }
 
@@ -27,12 +29,15 @@ $schedule-link-color: #212121;
 }
 
 .schedule-table__cell {
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed $table-border-color;
     padding: 1em;
+
+    line-height: 24px;
+    font-size: 15px;
 }
 
 .schedule-table__row:first-child td {
-    border-top: 1px dashed black;
+    border-top: 1px dashed $table-border-color;
 }
 
 .schedule-table__link {

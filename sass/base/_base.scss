@@ -16,7 +16,9 @@ html {
 
 body {
 	font-family: $primary-font;
-	color: $primary-font-color;
+	color: lighten($primary-font-color, 13%);
+
+  background-color: #eee;
 }
 
 ul {
@@ -44,4 +46,9 @@ iframe {
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 500;
 }
