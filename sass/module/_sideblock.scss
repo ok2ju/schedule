@@ -1,19 +1,16 @@
 // imports
 @import '../utils/shadows';
+@import '../utils/fontUtils';
 
 // variables
 $sideblock-font-color: #212121;
-$sideblock-border-top-color: #c6463d;
+$sideblock-border-left-color: #86AD73;
 $sideblock-bg-color: #f5f5f5;
 
 .sideblock {
 	padding: 2em;
 	margin-bottom: 20px;
-	border-top: 5px solid $sideblock-border-top-color;
-	/*
-	background-color: $sideblock-bg-color;
-	*/
-	background-color: #fff;
+	border-left: 3px solid $sideblock-border-left-color;
 
 	/*
 	@include card(1);
@@ -22,7 +19,7 @@ $sideblock-bg-color: #f5f5f5;
 
 .sideblock__header {
 	margin-bottom: 15px;
-	font-size: 20px;
+	@include font-size(20px);
 }
 
 .sideblock__categories-item {

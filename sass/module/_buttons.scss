@@ -1,31 +1,92 @@
+// imports
+@import '../utils/fontUtils';
+
+// variables
+$primary-btn-color: #86AD73;
+$danger-btn-color: #c6463d;
+$inverse-btn-color: #383838;
+$warning-btn-color: #f1c40f;
+$default-btn-color: #bdc3c7;
+$success-btn-color: #2ecc71;
+$info-btn-color: #3498db;
+
 .btn {
     display: block;
     height: 40px;
     line-height: 40px;
     border-radius: 0.25em;
     padding: 0 3em;
+
     text-align: center;
-    font-size: 13px;
-    font-weight: bold;
+    @include font-size(13px);
+    font-weight: 500;
+
+    transition: border .25s linear,color .25s linear,background-color .25s linear;
 }
 
 // Модификаторы блока .btn
 // название блока_тип модификатора_значение модификатора
 // Например, .btn_size_large
-.btn_color_red {
-    background-color: #c6463d;
+// .btn_primary
+.btn_primary {
+    background-color: $primary-btn-color;
     color: #fff;
 
     &:hover {
-        background-color: #BE645E;
+        background-color: lighten($primary-btn-color, 10%);
     }
 }
 
-.btn_color_black {
-    background-color: #383838;
+.btn_danger {
+    background-color: $danger-btn-color;
+    color: #fff;
+
+    &:hover {
+        background-color: lighten($danger-btn-color, 10%);
+    }
+}
+
+.btn_inverse {
+    background-color: $inverse-btn-color;
     color: #fff;
     
     &:hover {
-        background-color: #454545;
+        background-color: lighten($inverse-btn-color, 10%);
+    }
+}
+
+.btn_warning {
+    background-color: $warning-btn-color;
+    color: #fff;
+
+    &:hover {
+        background-color: lighten($warning-btn-color, 10%);
+    }
+}
+
+.btn_default {
+    background-color: $default-btn-color;
+    color: #fff;
+
+    &:hover {
+        background-color: lighten($default-btn-color, 10%);
+    }
+}
+
+.btn_success {
+    background-color: $success-btn-color;
+    color: #fff;
+
+    &:hover {
+        background-color: lighten($success-btn-color, 10%);
+    }
+}
+
+.btn_info {
+    background-color: $info-btn-color;
+    color: #fff;
+
+    &:hover {
+        background-color: lighten($info-btn-color, 10%);
     }
 }

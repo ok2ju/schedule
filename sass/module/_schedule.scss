@@ -1,5 +1,6 @@
 // imports
 @import '../utils/clearfix';
+@import '../utils/fontUtils';
 
 // variables
 $schedule-link-color: #212121;
@@ -10,16 +11,15 @@ $table-border-color: #E2E2E2;
 .schedule-header__day-number {
 	display: inline-block;
 	margin-right: 5px;
-    font-size: 60px;
+    @include font-size(60px);
     font-weight: bold;
     color: #E64A19;
 }
 
 .schedule-header__day-name {
 	display: inline-block;
-    font-size: 35px;
+    @include font-size(35px);
     font-weight: 300;
-    color: #212121;
 }
 
 //Schedule Table
@@ -33,7 +33,7 @@ $table-border-color: #E2E2E2;
     padding: 1em;
 
     line-height: 24px;
-    font-size: 15px;
+    @include font-size(15px);
 }
 
 .schedule-table__row:first-child td {

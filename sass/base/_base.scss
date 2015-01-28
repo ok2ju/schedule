@@ -1,5 +1,9 @@
+// imports
+@import '../utils/fontUtils';
+
+// variables
 $primary-font: 'Roboto', sans-serif;
-$primary-font-color: #212121;
+$primary-font-color: #000;
 
 html {
     box-sizing: border-box;
@@ -16,9 +20,11 @@ html {
 
 body {
 	font-family: $primary-font;
+  font-size: 1em;
 	color: lighten($primary-font-color, 13%);
-
-  background-color: #eee;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 ul {
@@ -49,6 +55,8 @@ iframe {
 }
 
 h2 {
-  font-size: 14px;
+  @include font-size(14px);
   font-weight: 500;
+
+  color: lighten($primary-font-color, 46%);
 }
