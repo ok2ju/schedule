@@ -1,6 +1,5 @@
 // imports
-@import '../utils/clearfix';
-@import '../utils/fontUtils';
+@import '../utils/index';
 
 // variables
 $schedule-link-color: #212121;
@@ -57,11 +56,9 @@ $table-border-color: #E2E2E2;
 }
 
 .schedule-actions__select {
-    float: left;
     margin-right: 20px;
 }
 
 .schedule-actions__btns-item {
     display: inline-block;
-    margin-right: 5px;
 }

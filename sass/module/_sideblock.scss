@@ -1,16 +1,15 @@
 // imports
-@import '../utils/shadows';
-@import '../utils/fontUtils';
+@import '../utils/index';
 
 // variables
 $sideblock-font-color: #212121;
-$sideblock-border-left-color: #86AD73;
-$sideblock-bg-color: #f5f5f5;
+$sideblock-bg-color: #eee;
 
 .sideblock {
 	padding: 2em;
 	margin-bottom: 20px;
-	border-left: 3px solid $sideblock-border-left-color;
+	border-radius: 2px;
+	background-color: $sideblock-bg-color;
 
 	/*
 	@include card(1);
