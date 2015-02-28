@@ -6,36 +6,36 @@ $header-bg-color: #9bd8f1;
 $header-font-color: #fff;
 
 #header {
-    min-height: 50px;
-    z-index: 999;
-    color: $header-font-color;
-    background-color: $header-bg-color;
-    box-shadow: 0 1px 1px rgba(34, 34, 34, 0.35);
+  background-color: $header-bg-color;
+  box-shadow: 0 1px 1px rgba(34, 34, 34, .35);
+  color: $header-font-color;
+  min-height: 50px;
+  z-index: 999;
 }
 
 .l-constrained {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 68em;
 }
 
 .main {
-	padding-top: 50px;
+  @include clearfix;
 
-	@include clearfix;
+  padding-top: 50px;
 }
 
 .l-content,
 .l-sidebar {
-	float: left;
-	display: block;
+  display: block;
+  float: left;
 }
 
 .l-content {
-	margin-right: 2.35765%;
-	width: 74.41059%;
+  margin-right: 2.35765%;
+  width: 74.41059%;
 }
 
 .l-sidebar {
-	width: 23.23176%;
+  width: 23.23176%;
 }
