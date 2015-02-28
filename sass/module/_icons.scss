@@ -1,6 +1,6 @@
 $sidemenu-icons-color: #727272;
 
-/* FONT PATH */
+// FONT PATH
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
@@ -13,56 +13,55 @@ $sidemenu-icons-color: #727272;
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: auto;
 }
 
 // fixed width icons
 .fa-fw {
-  width: 1.28571429em;
   text-align: center;
+  width: 1.28571429em;
 }
 
 // 10px margin from icon
 .fa-indent {
-  margin-right: 10px;
   color: $sidemenu-icons-color;
+  margin-right: 10px;
 }
 
-/* ICONS */
-
+// ICONS
 .fa-list-ul:before {
-  content: "\f0ca";
+  content: '\f0ca';
 }
 
 .fa-chain-broken:before {
-  content: "\f127";
+  content: '\f127';
 }
 
 .fa-line-chart:before {
-  content: "\f201";
+  content: '\f201';
 }
 
 .fa-star-half-o:before {
-  content: "\f123";
+  content: '\f123';
 }
 
 .fa-folder:before {
-  content: "\f07b";
+  content: '\f07b';
 }
 
 .fa-pencil-square-o:before {
-  content: "\f044";
+  content: '\f044';
 }
 
 .fa-times:before {
-  content: "\f00d";
+  content: '\f00d';
 }
 
 // --------------- GOOGLE ICONS
 .menu-icon {
+  margin-right: 10px;
   position: relative;
   top: 4px;
-  margin-right: 10px;
 }

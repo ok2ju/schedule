@@ -2,13 +2,13 @@
 $top-link-color: #fff;
 
 .logo {
-	float: left;
+  float: left;
 }
 
 .logo__link {
-	line-height: 3;
-	color: $top-link-color;
-	font-weight: bold;
+  color: $top-link-color;
+  font-weight: bold;
+  line-height: 3;
 }
 
 .logo__icon {

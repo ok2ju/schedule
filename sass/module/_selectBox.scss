@@ -5,10 +5,10 @@
 $select-border-color: #e6e6e6;
 
 .selectBox {
-	min-width: 5.14em;
-    cursor: pointer;
-    @include font-size(14px);
-    padding: .57em;
-    border: 1px solid $select-border-color;
-    border-radius: 2px;
+  @include font-size(14px);
+  border: 1px solid $select-border-color;
+  border-radius: 2px;
+  cursor: pointer;
+  min-width: 5.14em;
+  padding: .57em;
 }

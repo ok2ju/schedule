@@ -3,62 +3,58 @@
 
 // variables
 $schedule-link-color: #212121;
-$table-border-color: #E2E2E2;
+$table-border-color: #e2e2e2;
 
 //Schedule Header
 
 .schedule-header__day-number {
-	display: inline-block;
-	margin-right: 5px;
-    @include font-size(60px);
-    font-weight: bold;
-    color: #E64A19;
+  @include font-size(60px);
+  color: #e64a19;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 5px;
 }
 
 .schedule-header__day-name {
-	display: inline-block;
-    @include font-size(35px);
-    font-weight: 300;
+  @include font-size(35px);
+  display: inline-block;
+  font-weight: 300;
 }
 
 //Schedule Table
-
 .schedule-table {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .schedule-table__cell {
-    border-bottom: 1px dashed $table-border-color;
-    padding: 1em;
-
-    line-height: 24px;
-    @include font-size(15px);
+  @include font-size(15px);
+  border-bottom: 1px dashed $table-border-color;
+  line-height: 24px;
+  padding: 1em;
 }
 
 .schedule-table__row:first-child td {
-    border-top: 1px dashed $table-border-color;
+  border-top: 1px dashed $table-border-color;
 }
 
 .schedule-table__link {
-    color: $schedule-link-color;
+  color: $schedule-link-color;
 
-    &:active {
-        color: red;
-    }
+  &:active {
+    color: red;
+  }
 }
 
 //Schedule Admin Actions
-
 .schedule-actions {
-    margin-top: 20px;
-
-    @include clearfix;
+  @include clearfix;
+  margin-top: 20px;
 }
 
 .schedule-actions__select {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .schedule-actions__btns-item {
-    display: inline-block;
+  display: inline-block;
 }

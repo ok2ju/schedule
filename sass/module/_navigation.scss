@@ -5,37 +5,36 @@
 $top-link-color: #fff;
 
 .header-nav {
-	@include clearfix;
+  @include clearfix;
 }
 
 .header-nav__user-panel {
-	float: right;
+  float: right;
 }
 
 .header-nav__link {
-	display: inline-block;
-	padding: 1em;
-	color: $top-link-color;
+  color: $top-link-color;
+  display: inline-block;
+  padding: 1em;
 }
 
 .top-list {
-	margin-right: 8em;
+  margin-right: 8em;
 }
 
 .user-menu__photo {
-	width: 30px;
-
-	vertical-align: middle;
-	border-radius: 50%;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 30px;
 }
 
 .user-menu__name {
-	vertical-align: middle;
-	color: $top-link-color;
+  color: $top-link-color;
+  vertical-align: middle;
 }
 
 .top-list,
 .user-menu,
-.top-list__item{
-	display: inline-block;
+.top-list__item {
+  display: inline-block;
 }
