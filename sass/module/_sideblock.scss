@@ -6,29 +6,26 @@ $sideblock-font-color: #212121;
 $sideblock-bg-color: #eee;
 
 .sideblock {
-	padding: 2em;
-	margin-bottom: 20px;
-	border-radius: 2px;
-	background-color: $sideblock-bg-color;
-
-	/*
-	@include card(1);
-	*/
+  background-color: $sideblock-bg-color;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 2em;
+	//@include card(1)
 }
 
 .sideblock__header {
-	margin-bottom: 15px;
-	@include font-size(20px);
+  @include font-size(20px);
+  margin-bottom: 15px;
 }
 
 .sideblock__categories-item {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 
-	&:hover {
-		text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
 	}
 }
 
 .sideblock__link {
-	color: $sideblock-font-color;
+  color: $sideblock-font-color;
 }
